@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+/*navbar*/
+
+.navbar-conteiner {
+    width: 100%;
+    height: 80px;
+    background-color: #232a21;
+    padding: 0 2rem;
+}
+
+nav {
+    position: relative;
+}
+
+
+.logo {
+    width: 50px;
+    margin-top: 15px;
+}
+
+.items-navbar {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.items-navbar li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.items-navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.items-navbar a:hover {
+    color: #ccc;
+
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+}
+
+.items-navbar .default-btn:hover {
+    background-color: #22bb5f;
+    color: #fff;
+
+}
+
+.main-banner {
+    background-image: url('../img/Imagens.webp');
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0;
+}
+
+.main-banner h1,
+.main-banner p {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 32px;
+
+}
+
+/*Serviços*/
+
+.services-container {
+    padding: 5rem 0;
+
+}
+
+.services-container ul {
+    display: flex;
+   
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.services-container li {
+    text-align: center;
+    line-height: 24px;
+    list-style: none;
+    flex: 1 1 200px;
+    padding: 20px;
+    transition: all 1s;
+}
+.services-container li:hover{
+    transform: scale(1.1);
+   
+}
+
+    
+.fas {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.fa-shield-alt {
+    color: #22bb5f;
+}
+
+.fa-rocket {
+    color: #ef3f29;
+}
+
+.fa-comments {
+    color: #ef8f29;
+}
+
+.services-container h3 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.services-container p {
+    line-height: 24px;
+}
+
+.price-conteiner {
+    padding-bottom: 5rem;
+    text-align: center;
+    
+}
+.plan ul:hover{
+    transform: scale(1.1);
+}
+
+.price-conteiner h2 {
+    font-size: 36px;
+
+}
+
+.price-conteiner p {
+    font-size: 20px;
+}
+
+.planes-conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+
+}
+
+.plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul {
+    padding: 0;
+}
+
+.plan li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+
+.plan .price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc762;
+    color: #fff;
+    align-items: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.plan .price-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #202b34;
+    padding: 50px 0;
+}
+
+.plan .plan-btn {
+    background-color: #2cc762;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .recomend {
+    background-color: #ef3f29;
+}
+
+.formdomain {
+    background-color: #34454e;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.formdomain h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px
+}
+
+.formdomain p {
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.formdomain input {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.formdomain input[type="text"] {
+    width: 60%;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+
+.formdomain input[type="submit"] {
+    background-color: #2cc76a;
+    padding: 15px 30px;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.formdomain input[type="submit"]:hover {
+    opacity: 1.5;
+}
+
+.contact-conteiner {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-conteiner h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-conteiner p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.contact-conteiner input,
+.contact-conteiner textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+    outline: none;
+}
+
+.contact-conteiner textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact-conteiner input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0 100px;
+
+}
+
+/*responsividade  */
+
+
+/*small laptops a parti de 1100 px*/
+
+@media (max-width: 1100px) {
+
+    .planes-conteiner {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+
+}
+
+/*tablet 900 pra baixo*/
+
+@media (max-width: 900px) {
+
+    .main-banner p {
+        font-size: 32px;
+        padding: 0 6rem;
+    }
+
+    .formdomain h2 {
+        padding: 2rem 4rem;
+    }
+}
+
+/*celulares*/
+
+@media (max-width: 576px) {
+
+    html,body{
+        overflow-x: hidden;
+    }
+    .planes-conteiner {
+        flex-direction: column;
+        width: 100%;
+        padding:0 2rem;
+        
+    }
+    .main-banner p{
+        padding: 2rem;
+    }
+
+    .services-container ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .items-navbar li{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .plan{
+        width: 100%;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .contact-conteiner input,
+    .contact-conteiner textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .contact-conteiner{
+        padding: 3rem 2rem;
+    }
+    .contact-conteiner textarea {
+        width: 100%;
+    }
+    .formdomain h2{
+        padding: 2rem 0;
+        font-size: 28px;
+    }
+    .formdomain input[type="text"]{
+        width: 100%;
+    }
+}
